@@ -74,7 +74,7 @@
 
             <h2>Contáctanos</h2>
 
-            <form>
+            <form id="form-contacto" novalidate>
 
                 <label for="nombre">Tu nombre</label><br>
                 <input type="text" id="nombre" placeholder="Escribe tu nombre" required><br><br>
@@ -86,6 +86,8 @@
                 <textarea id="msg" rows="5" placeholder="Hola..." required></textarea><br><br>
 
                 <button type="submit">Enviar</button>
+
+                <p id="aviso-contacto" class="aviso"></p>
 
             </form>
 
